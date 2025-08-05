@@ -7,6 +7,9 @@
 #   A Flask application for sentiment analysis of movie reviews
 #   using a pre-trained model using sklearn
 #   TfidfVectorizer/SGDClassifier/RandomizedSearchCV
+# How to run:
+# > curl -X POST -H "Content-Type: application/json" -d '{"review": "잘한선택"}' http://localhost:5001/predict
+# > return {"prediction": "positive" or "negative"}
 # =============================================================================
 
 
